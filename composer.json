@@ -1,0 +1,28 @@
+{
+    "name": "antonioprimera/phpunit-custom-assertions",
+    "description": "Custom test assertions, currently missing from phpunit.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Primera",
+            "email": "antonio@cus.ro"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "antonioprimera/lara-packager": "^1.5",
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AntonioPrimera\\Testing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AntonioPrimera\\Testing\\Tests\\": "tests/"
+        }
+    }
+}
